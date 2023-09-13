@@ -1,10 +1,10 @@
-#how to run 
+# how to run 
 `benchmarks % node numbers_decimal_bigiint_mul.js`
 `benchmarks % node numbers_decimal_bigiint_div.js`
 `benchmarks % node numbers_decimal_bigiint_sub.js`
 `benchmarks % node numbers_decimal_bigiint_add.js`
 
-#reuslts
+# reuslts
 |     | number                                          | bigInt                                          | Decimal                                     |
 |-----|-------------------------------------------------|-------------------------------------------------|---------------------------------------------|
 | mul | 1,131,252,429 ops/sec ±0.11% (101 runs sampled) | 1,129,760,483 ops/sec ±0.10% (98 runs sampled)  | 2,123,623 ops/sec ±0.37% (100 runs sampled) |
