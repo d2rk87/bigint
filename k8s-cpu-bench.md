@@ -1,3 +1,15 @@
+# experement target
+check cpu performance with different cpu requests on k8s 
+    - nolimit
+    - 25m
+    - 250m
+    - 1000m
+    - 2000m
+
+script: cpu_bench_mark.js
+
+`before start, ram request checked and figureout that not inmicat on results`
+
 # os
 
 ```
