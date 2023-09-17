@@ -1,7 +1,11 @@
 # how to run 
+
 `benchmarks % node numbers_decimal_bigiint_mul.js`
+
 `benchmarks % node numbers_decimal_bigiint_div.js`
+
 `benchmarks % node numbers_decimal_bigiint_sub.js`
+
 `benchmarks % node numbers_decimal_bigiint_add.js`
 
 # reuslts
