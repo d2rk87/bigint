@@ -22,10 +22,11 @@ spec:
         imagePullPolicy: IfNotPresent
         env: 
         - name: SCRIPT
-          value: "numbers_decimal_bigiint_add.js"
-#        resources:
-#            limits:
-#              memory: 200Mi
-#            requests:
-#              cpu: 2000m
-#              memory: 200Mi
+          value: "numbers_decimal_bigiint_div.js"
+        resources:
+            limits:
+              memory: 250Mi
+              cpu: 2200m
+            requests:
+              cpu: 2000m
+              memory: 200Mi

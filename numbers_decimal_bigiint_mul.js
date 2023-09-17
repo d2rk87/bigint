@@ -4,7 +4,7 @@ const Decimal = require('decimal.js');
 
 // add tests
 suite.add('Number mul', function() {
-  Math.round(input - 256);
+  Math.round(input * 256);
 },
 {
   'setup': function() {
@@ -12,7 +12,7 @@ suite.add('Number mul', function() {
   }
 })
 .add('BigInt mul', function() {
-  input - 256n;
+  input * 256n;
 },
 {
   'setup': function() {
